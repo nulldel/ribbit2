@@ -4,6 +4,9 @@
         <!-- 左侧分类 -->
         <HomeCategory />
         <!-- 轮播图 -->
+
+
+
          <HomeBanner />
         <!-- 新鲜好物 -->
          <HomeNew />
@@ -52,6 +55,7 @@ export default {
 ::v-deep.home-category {
   float: left;
 }
+//我再测试
 // ---------------------------
 // vue动画：使用transition vue内置组件
 
