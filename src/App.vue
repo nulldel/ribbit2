@@ -1,23 +1,24 @@
-<template>
-<!-- 一级路由 -->
-<RouterView />
+    <template>
+    <!-- 一级路由 -->
+    <RouterView />
 
-</template>
+    </template>
 
-<script>
-import request from './utils/request'
-export default {
-  name: 'App',
-  setup () {
-    const fn = () => {
-      request('/member/profile', 'get')
+    <script>
+    import request from './utils/request'
+    export default {
+      sex:'男',
+      name: 'App',
+      setup () {
+        const fn = () => {
+          request('/member/profile', 'get')
+        }
+        return { fn }
+      }
     }
-    return { fn }
-  }
-}
-</script>
+    </script>
 
-<style lang="less">
-@import './assets/styles/mixins.less';
+    <style lang="less">
+    @import './assets/styles/mixins.less';
 
-</style>
+    </style>
