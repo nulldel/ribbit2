@@ -8,6 +8,7 @@
 import request from './utils/request'
 export default {
   name: 'App',
+    age:'90',
   setup () {
     const fn = () => {
       request('/member/profile', 'get')
