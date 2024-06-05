@@ -1,4 +1,4 @@
-                                                                  <template>
+<template>
   <!-- 顶部通栏 -->
   <AppNavbar />
 
@@ -18,7 +18,7 @@
   <appFooterVue></appFooterVue>
 </template>
 
-                                                                  <script>
+<script>
 import AppNavbar from "@/components/app-navbar.vue";
 import appHeaderVue from "@/components/app-header.vue";
 import appFooterVue from "@/components/app-footer.vue";
@@ -41,7 +41,7 @@ export default {
 };
 </script>
 
-                                                                  <style lang="less" scoped>
+<style lang="less" scoped>
 .main {
   height: 100%;
 }
