@@ -6,7 +6,7 @@
 
       <RouterLink class="entry" to="/">
         进入网站首页
-        <i class="iconfont icon-angle-right"></i>
+        <i class="iconfont icon-angle-right">小兔鲜网站</i>
 
         <i class="iconfont icon-angle-right"></i>
       </RouterLink>
@@ -49,7 +49,9 @@ export default {
     font-size: 24px;
 
     font-weight: normal;
+
     margin-bottom: 38px;
+
     margin-left: 20px;
 
     color: #666;
