@@ -3,12 +3,10 @@
     <div class="container">
       <h1 class="logo"><RouterLink to="/">小兔鲜</RouterLink></h1>
       <h3 class="sub"><slot /></h3>
-
       <RouterLink class="entry" to="/">
         进入网站首页
-        <i class="iconfont icon-angle-right">小兔鲜网站</i>
-
-        <i class="iconfont icon-angle-right"></i>
+        <i class="iconfont icon-angle-right">小</i>
+        <i class="iconfont icon-angle-right">小兔鲜</i>
       </RouterLink>
     </div>
   </header>
@@ -36,10 +34,8 @@ export default {
     a {
       display: block;
       height: 132px;
-
       width: 100%;
       text-indent: -9999px;
-
       background: url(../../../assets/images/logo.0940ebb5.png) no-repeat center
         18px / contain;
     }
@@ -49,11 +45,8 @@ export default {
     font-size: 24px;
 
     font-weight: normal;
-
     margin-bottom: 38px;
-
     margin-left: 20px;
-
     color: #666;
   }
   .entry {
