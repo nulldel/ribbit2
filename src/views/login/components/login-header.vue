@@ -23,10 +23,12 @@ export default {
 <style scoped lang='less'>
 .login-header {
   background: #fff;
+
   border-bottom: 1px solid #e4e4e4;
   .container {
     display: flex;
     align-items: flex-end;
+
     justify-content: space-between;
   }
   .logo {
@@ -45,6 +47,7 @@ export default {
   .sub {
     flex: 1;
     font-size: 24px;
+
     font-weight: normal;
     margin-bottom: 38px;
     margin-left: 20px;
