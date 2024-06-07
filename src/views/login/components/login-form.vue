@@ -2,10 +2,10 @@
   <div class="account-box">
     <div class="toggle">
       <a @click="isMsgLogin = false" href="javascript:;" v-if="isMsgLogin">
-        <i class="iconfont icon-user"></i> 使用账号登录
+        <i class="iconfont icon-user"></i> 使用账号登录 手机号
       </a>
       <a @click="isMsgLogin = true" href="javascript:;" v-else>
-        <i class="iconfont icon-msg"></i> 使用短信登录
+        <i class="iconfont icon-msg"></i> 使用短信登录 手机号
       </a>
     </div>
     <div class="form">
