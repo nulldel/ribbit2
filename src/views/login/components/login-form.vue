@@ -20,6 +20,7 @@
         <template v-if="!isMsgLogin">
           <div class="form-item">
             <div class="input">
+              <!-- 我是谁 -->
               <i class="iconfont icon-user"></i>
 
               <!-- <input type="text" placeholder="请输入用户名或手机号" /> -->
@@ -50,6 +51,7 @@
               />
             </div>
             <div class="error" v-if="errors.password">
+              <div>我也不知道</div>
               <i class="iconfont icon-warning" />{{ errors.password }}
             </div>
           </div>
@@ -58,7 +60,7 @@
         <template v-else>
           <div class="form-item">
             <div class="input">
-              <i class="iconfont icon-user"></i>
+              <i class="iconfont icon-user">啦啦啦</i>
               <Field
                 :class="{ error: errors.mobile }"
                 v-model="form.mobile"
