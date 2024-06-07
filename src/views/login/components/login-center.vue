@@ -4,7 +4,6 @@
     <div class="wrapper">
       <nav>
         <a @click="activeName = 'account'" href="javascript:;">账户登录</a>
-
         <a @click="activeName = 'qrcode'" href="javascript:;">扫码登录</a>
       </nav>
 
@@ -14,7 +13,6 @@
         class="account-box"
       >
         <!-- 表单组件 -->
-
         <LoginForm> </LoginForm>
       </div>
       <div
@@ -77,7 +75,6 @@ export default {
         display: inline-block;
         font-size: 18px;
         position: relative;
-
         &:first-child {
           border-right: 1px solid #f5f5f5;
           text-align: left;
