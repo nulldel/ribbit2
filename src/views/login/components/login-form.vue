@@ -2,14 +2,15 @@
   <div class="account-box">
     <div class="toggle">
       <a @click="isMsgLogin = false" href="javascript:;" v-if="isMsgLogin">
-        <i class="iconfont icon-user"></i> 使用账号登录 手机号码
+        <i class="iconfont icon-user"></i> 使用账号登录 手机号手机号
       </a>
       <a @click="isMsgLogin = true" href="javascript:;" v-else>
-        <i class="iconfont icon-msg"></i> 使用短信登录 手机号吗
+        <i class="iconfont icon-msg"></i> 使用短信登录 手机号手机号
       </a>
     </div>
     <div class="form">
-      <Form
+      <!-- 你在那 -->
+      <Form吃
         class="form"
         :validation-schema="mySchema"
         autocomplete="off"
@@ -100,7 +101,7 @@
           </div>
         </div>
         <a href="javascript:;" class="btn" @click="submit">登录</a>
-      </Form>
+      </Form吃>
     </div>
     <div class="action">
       <img
