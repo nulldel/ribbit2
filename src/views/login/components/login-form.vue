@@ -20,6 +20,7 @@
         <template v-if="!isMsgLogin">
           <div class="form-item">
             <div class="input">
+              <!-- 我在这里 -->
               <i class="iconfont icon-user"></i>
 
               <!-- <input type="text" placeholder="请输入用户名或手机号" /> -->
@@ -33,6 +34,7 @@
               />
             </div>
             <div class="error" v-if="errors.mobile">
+              <div>啦啦啦</div>
               <i class="iconfont icon-warning" />{{ errors.mobile }}
             </div>
           </div>
